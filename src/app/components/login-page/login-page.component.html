@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal | www.codingnepalweb.com-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Login and Registration Form in HTML & CSS | CodingLab </title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="./components/login-page/login-page.component.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<div id="back">
+  <div class="backRight"></div>
+  <div class="backLeft"></div>
+</div>
+
+<div id="slideBox">
+  <div class="topLayer">
+    <div class="left">
+      <div class="content">
+        <h2>Sign Up</h2>
+        <form method="post" onsubmit="return false;">
+          <div class="form-group">
+            <input type="text" placeholder="username" />
+          </div>
+          <div class="form-group"></div>
+          <div class="form-group"></div>
+          <div class="form-group"></div>
+        </form>
+        <button id="goLeft" class="off">Login</button>
+        <button>Sign up</button>
+      </div>
+    </div>
+    <div class="right">
+      <div class="content">
+        <h2>Login</h2>
+        <form method="post" onsubmit="return false;">
+          <div class="form-group">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" />
+          </div>
+          <button id="goRight" class="off">Sign Up</button>
+          <button id="login" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Inspiration from: http://ertekinn.com/loginsignup/-->
+
+</html>
